@@ -1,0 +1,16 @@
+{
+  "name": "tagist",
+  "version": "0.0.1",
+  "description": "Google Tag Manager for the modern web",
+  "main": "index.js",
+  "author": "Luke James <me@luke.gg>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/test"
+  },
+  "dependencies": {}
+}
